@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: U:\Documents\Personal Projects\Side-Tables-With-LEDS\LED Strip Board\LED Strip Board 2.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=led strip board 2-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=led strip board 2-slotholes.txt|DrillLayers=gtl,gbl

@@ -1,0 +1,10 @@
+Added Component: Designator=U(MODULE_A000005)
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "SPA000005J-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Purchase_URL"; Value = "https://www.digikey.com/product-detail/en/diodes-incorporated/SPA000005J/SPA000005J-ND/9769570?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Arduino"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "A000005"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/A000005/Arduino/view-part/51027/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Class: Name=LED Strip Board Schematic
+Added Room: Name=LED Strip Board Schematic

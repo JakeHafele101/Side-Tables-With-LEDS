@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=S2 Pin=U-20
+Removed Pin From Net: NetName=S3 Pin=U-21
+Change Net Name : Old Net Name=S2 New Net Name=NetP1_5
+Change Net Name : Old Net Name=S3 New Net Name=NetP1_2
+Added Pin To Net: NetName=NetDS2_1 Pin=DS2-1
+Added Pin To Net: NetName=NetDS2_1 Pin=R5-1
+Added Net: Name=NetDS2_1
+Added Pin To Net: NetName=NetDS3_1 Pin=DS3-1
+Added Pin To Net: NetName=NetDS3_1 Pin=R6-1
+Added Net: Name=NetDS3_1
+Added Pin To Net: NetName=NetDS4_1 Pin=DS4-1
+Added Pin To Net: NetName=NetDS4_1 Pin=R7-1
+Added Net: Name=NetDS4_1
+Added Pin To Net: NetName=S2 Pin=P1-6
+Added Pin To Net: NetName=S2 Pin=U-20
+Added Net: Name=S2
+Added Pin To Net: NetName=S3 Pin=P1-3
+Added Pin To Net: NetName=S3 Pin=U-21
+Added Net: Name=S3
+Added Room: Name=LED Strip Board Schematic

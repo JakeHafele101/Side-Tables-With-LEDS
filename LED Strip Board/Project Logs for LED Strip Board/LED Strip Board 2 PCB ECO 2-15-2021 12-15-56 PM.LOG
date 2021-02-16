@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=D6 Pin=R9-2
+Removed Pin From Net: NetName=D8 Pin=R14-2
+Removed Pin From Net: NetName=D6 Pin=SW6-1
+Removed Pin From Net: NetName=D8 Pin=SW11-1
+Added Pin To Net: NetName=D8 Pin=R9-2
+Added Pin To Net: NetName=D6 Pin=R14-2
+Added Pin To Net: NetName=D8 Pin=SW6-1
+Added Pin To Net: NetName=D6 Pin=SW11-1
+Added Room: Name=LED Strip Board Schematic
