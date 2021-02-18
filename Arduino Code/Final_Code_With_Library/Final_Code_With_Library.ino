@@ -7,6 +7,7 @@ int brightness = 100; //Brightness of LEDs
 int hue = 100; //Color of LEDs
 int rate = 5; //Rate LEDs change
 int preset = 0;
+boolean isHueIncreasing = true;
 
 //Transceiever initialization
 RF24 radio(CE, CSN);
@@ -21,9 +22,11 @@ void setup() {
   Serial.begin(9600); //Starts terminal at 9600 baud rate
 
   //Setup functions for LED Strips
-  FastLED.addLeds<LED_TYPE, LED_STRIP[0], COLOR_ORDER>(leds[0], NUM_LEDS);
-  FastLED.addLeds<LED_TYPE, LED_STRIP[1], COLOR_ORDER>(leds[1], NUM_LEDS);
-  FastLED.addLeds<LED_TYPE, LED_STRIP[2], COLOR_ORDER>(leds[2], NUM_LEDS);
+  FastLED.addLeds<LED_TYPE, LED_STRIP_1, COLOR_ORDER>(leds[0], NUM_LEDS);
+  FastLED.addLeds<LED_TYPE, LED_STRIP_2, COLOR_ORDER>(leds[1], NUM_LEDS);
+  FastLED.addLeds<LED_TYPE, LED_STRIP_3, COLOR_ORDER>(leds[2], NUM_LEDS);
+
+  FastLED.setBrightness(BRIGHTNESS);
 
   //Setup functions for transciever and radio object
   radio.begin(); //Wireless receiver setup
@@ -51,13 +54,29 @@ void loop() {
   // put your main code here, to run repeatedly:
   button_read(); //Scans buttons, updates values to buttons
 
-  //do different led functions
+  //Switch case block to determine which preset the LEDs are on
+  switch(preset){
+    case(0):
+      preset0();
+      break;
+    case(1):
+      preset1();
+      break;
 
+    case(2):
+      preset2();
+      break;
+
+    case(3):
+      preset3();
+      break;
+  }
 
   //talk to different arduinos with transciever
 
 }
 
+//Scans input of all buttons and checks if params need updated from board
 void button_read(){
   for(int i = 0; i < BUTTON_NUM; i++){ //Condition checks for buttons being held/pressed
     buttonState[i] = digitalRead(buttonDigital[i]);
@@ -83,12 +102,14 @@ void check_brightness(){
     if(brightness > BRIGHTNESS_MAX){
       brightness = BRIGHTNESS_MAX;
     }
+    FastLED.setBrightness(BRIGHTNESS);
   }
   else if(buttonState[1]){
     brightness -= BRIGHTNESS_CHANGE;
     if(brightness < 0){
       brightness = 0;
     }
+    FastLED.setBrightness(BRIGHTNESS);
   }
 }
 
@@ -129,4 +150,66 @@ void check_preset(){
   if(preset > PRESET_MAX){
       preset = 0;
   }
+}
+
+//Sets all LEDs to "black" or so they are cleared
+void clear_strip(int row){
+  for(int i = 0; i < NUM_LEDS; i++){
+    leds[row][i] = CRGB::Black;
+  }
+}
+
+void clear_all_strips(){
+  for(int i = 0; i < NUM_STRIP; i++){
+    clear_LED(i);
+  }
+}
+
+//Static color, 
+void preset0(){
+  buttonRead();
+  for(int i = 0; i < NUM_STRIP; i++){
+    for(int j = 0; j < NUM_LEDS; j++){
+      leds[i][j].setHue(hue);
+    }
+  }
+  FastLED.show();
+}
+
+//Set hue bounces side to side
+void preset1(){
+  buttonRead();
+  
+}
+
+//Color changes based on rate
+void preset2(){
+  buttonRead();
+  
+  if(hue > HUE_MAX){
+    isHueIncreasing = false;
+  }
+  else if(hue < 0){
+    isHueIncreasing = true;
+  }
+  
+  if(isHueIncreasing){
+    hue++;
+  }
+  else{
+    hue--;
+  }
+
+  for(int i = 0; i < NUM_STRIP; i++){
+    for(int j = 0; j < NUM_LEDS; j++){
+      leds[i][j].setHue(hue);
+    }
+  }
+  FastLED.show();
+}
+
+//Something crazy
+void preset3(){
+  buttonRead();
+  
 }

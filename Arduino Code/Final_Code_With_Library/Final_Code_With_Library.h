@@ -31,7 +31,15 @@
 
 //Define led strip info
 #define NUM_STRIP 3
-#define NUM_LEDS = 30; //amount of LEDS per strip, read top to bottom of table, PLACEHOLDER NUMBERS
-#define LED_STRIP = {A0, A1, A2} //Top to bottom strips, SW1 is A0, SW2 is A1, SW3 is A2
+#define NUM_LEDS 30 //amount of LEDS per strip, read top to bottom of table, PLACEHOLDER NUMBERS
+#define LED_STRIP_1 A0 //Top to bottom strips, SW1 is A0, SW2 is A1, SW3 is A2
+#define LED_STRIP_2 A1
+#define LED_STRIP_3 A2
 #define LED_TYPE    WS2812B
 #define COLOR_ORDER GRB
+
+void button_read();
+void check_brightness();
+void check_hue();
+void check_speed();
+void check_preset();
