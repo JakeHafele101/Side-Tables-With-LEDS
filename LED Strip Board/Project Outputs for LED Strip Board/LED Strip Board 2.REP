@@ -2,60 +2,6 @@
 FileName = LED Strip Board 2.GBR
 AutoAperture = True
 *************************************************************
-Generating : Bottom Pad Master
-      File : LED Strip Board 2.GPB
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D37
-    D38
-    D47
-    D48
-    D49
-    D50
-    D51
-    D52
-    D53
-    D54
-    D55
-    D56
-    D57
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : LED Strip Board 2.GBS
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-    D41
-    D42
-    D43
-    D44
-*************************************************************
-
-*************************************************************
 Generating : Top Layer
       File : LED Strip Board 2.GTL
 
@@ -65,16 +11,15 @@ Generating : Top Layer
 
 
 Used DCodes :
-    D17
     D18
     D19
     D20
     D21
     D22
     D23
-    D37
+    D24
     D38
-    D45
+    D39
     D46
     D47
     D48
@@ -89,6 +34,38 @@ Used DCodes :
     D57
     D58
     D59
+    D60
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : LED Strip Board 2.GPT
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D38
+    D39
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
 *************************************************************
 
 *************************************************************
@@ -107,112 +84,7 @@ Used DCodes :
     D15
     D16
     D17
-*************************************************************
-
-*************************************************************
-Generating : Top Assembly
-      File : LED Strip Board 2.GM5
-
-    Adding Layer      : Top Assembly
-
-
-Used DCodes :
-    D11
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 13
-      File : LED Strip Board 2.GM13
-
-    Adding Layer      : Mechanical 13
-
-
-Used DCodes :
-    D11
-    D15
-    D60
-*************************************************************
-
-*************************************************************
-Generating : Top Pad Master
-      File : LED Strip Board 2.GPT
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
     D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D37
-    D38
-    D47
-    D48
-    D49
-    D50
-    D51
-    D52
-    D53
-    D54
-    D55
-    D56
-    D57
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 15
-      File : LED Strip Board 2.GM15
-
-    Adding Layer      : Mechanical 15
-
-
-Used DCodes :
-    D60
-    D61
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 1
-      File : LED Strip Board 2.GM1
-
-    Adding Layer      : Mechanical 1
-
-
-Used DCodes :
-    D17
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : LED Strip Board 2.GBL
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D17
-    D37
-    D38
-    D47
-    D48
-    D49
-    D50
-    D51
-    D52
-    D53
-    D54
-    D55
-    D56
-    D57
-    D58
-    D59
 *************************************************************
 
 *************************************************************
@@ -227,34 +99,12 @@ Generating : Top Paste
 
 
 Used DCodes :
-    D18
     D19
     D20
     D21
     D22
     D23
-*************************************************************
-
-*************************************************************
-Generating : Top 3D Body
-      File : LED Strip Board 2.GM2
-
-    Adding Layer      : Top 3D Body
-
-
-Used DCodes :
-    D11
-*************************************************************
-
-*************************************************************
-Generating : Top Component Center
-      File : LED Strip Board 2.GM16
-
-    Adding Layer      : Top Component Center
-
-
-Used DCodes :
-    D60
+    D24
 *************************************************************
 
 *************************************************************
@@ -269,7 +119,6 @@ Generating : Top Solder
 
 
 Used DCodes :
-    D24
     D25
     D26
     D27
@@ -290,6 +139,133 @@ Used DCodes :
     D42
     D43
     D44
+    D45
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : LED Strip Board 2.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : LED Strip Board 2.GM1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D18
+*************************************************************
+
+*************************************************************
+Generating : Top 3D Body
+      File : LED Strip Board 2.GM2
+
+    Adding Layer      : Top 3D Body
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 13
+      File : LED Strip Board 2.GM13
+
+    Adding Layer      : Mechanical 13
+
+
+Used DCodes :
+    D11
+    D16
+    D61
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 15
+      File : LED Strip Board 2.GM15
+
+    Adding Layer      : Mechanical 15
+
+
+Used DCodes :
+    D61
+    D62
+*************************************************************
+
+*************************************************************
+Generating : Top Component Center
+      File : LED Strip Board 2.GM16
+
+    Adding Layer      : Top Component Center
+
+
+Used DCodes :
+    D61
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : LED Strip Board 2.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D18
+    D38
+    D39
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+*************************************************************
+
+*************************************************************
+Generating : Top Assembly
+      File : LED Strip Board 2.GM5
+
+    Adding Layer      : Top Assembly
+
+
+Used DCodes :
+    D11
 *************************************************************
 
 *************************************************************
@@ -301,5 +277,30 @@ Generating : Top Courtyard
 
 Used DCodes :
     D11
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : LED Strip Board 2.GPB
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D38
+    D39
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
 *************************************************************
 
