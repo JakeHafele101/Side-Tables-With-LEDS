@@ -18,11 +18,11 @@
 
 #define BRIGHTNESS_CHANGE 10
 #define HUE_CHANGE 10
-#define RATE_CHANGE 500 //ms
+#define RATE_CHANGE 1 //ms
 
 #define BRIGHTNESS_MAX 255
 #define HUE_MAX 255
-#define RATE_MAX 2000 //ms
+#define RATE_MAX 10 //ms
 #define PRESET_MAX 3 //Different settings for lights
 
 //Defines transciever pins

@@ -3,10 +3,10 @@
 CRGB leds[NUM_STRIP][NUM_LEDS];
 
 //LED value initialization
-int brightness = 100; //Brightness of LEDs
-int hue = 100; //Color of LEDs
-int rate = 5; //Rate LEDs change
-int preset = 0;
+int brightness = 200; //Brightness of LEDs
+int hue = 200; //Color of LEDs
+int rate = 2; //Rate LEDs change
+int preset = 1;
 boolean isHueIncreasing = true;
 
 //Transceiever initialization
@@ -26,7 +26,7 @@ void setup() {
   FastLED.addLeds<LED_TYPE, LED_STRIP_2, COLOR_ORDER>(leds[1], NUM_LEDS);
   FastLED.addLeds<LED_TYPE, LED_STRIP_3, COLOR_ORDER>(leds[2], NUM_LEDS);
 
-  FastLED.setBrightness(BRIGHTNESS);
+  FastLED.setBrightness(brightness);
 
   //Setup functions for transciever and radio object
   radio.begin(); //Wireless receiver setup
@@ -102,14 +102,14 @@ void check_brightness(){
     if(brightness > BRIGHTNESS_MAX){
       brightness = BRIGHTNESS_MAX;
     }
-    FastLED.setBrightness(BRIGHTNESS);
+    FastLED.setBrightness(brightness);
   }
   else if(buttonState[1]){
     brightness -= BRIGHTNESS_CHANGE;
     if(brightness < 0){
       brightness = 0;
     }
-    FastLED.setBrightness(BRIGHTNESS);
+    FastLED.setBrightness(brightness);
   }
 }
 
@@ -159,15 +159,15 @@ void clear_strip(int row){
   }
 }
 
-void clear_all_strips(){
-  for(int i = 0; i < NUM_STRIP; i++){
-    clear_LED(i);
-  }
-}
+//void clear_all_strips(){
+//  for(int i = 0; i < NUM_STRIP; i++){
+//    clear_LED(i);
+//  }
+//}
 
 //Static color, 
 void preset0(){
-  buttonRead();
+  button_read();
   for(int i = 0; i < NUM_STRIP; i++){
     for(int j = 0; j < NUM_LEDS; j++){
       leds[i][j].setHue(hue);
@@ -178,13 +178,42 @@ void preset0(){
 
 //Set hue bounces side to side
 void preset1(){
-  buttonRead();
+  //Sets all strips to white
+  button_read();
+  for(int i = 0; i < NUM_LEDS; i++){
+     for(int j = 0; j < NUM_STRIP; j++){
+       button_read();
+       leds[j][i] = CRGB::White;
+     }
+  }
+  delay(rate * 50);
+  FastLED.show();
+
+  //Loops to have one led light up through side to side
+  for(int i = 0; i < NUM_LEDS; i++){
+     for(int j = 0; j < NUM_STRIP; j++){
+       button_read();
+       leds[j][i].setHue(hue);
+       if(i >= 1){
+         leds[j][i-1] = CRGB::White;
+       }
+     }
+     delay(rate * 50);
+     FastLED.show();
+  }
+
+  //Clears remaining colored LED
+  for(int i = 0; i < NUM_STRIP; i++){
+    leds[i][NUM_LEDS - 1] = CRGB::White;
+  }
+  delay(rate * 50);
+  FastLED.show();
   
 }
 
 //Color changes based on rate
 void preset2(){
-  buttonRead();
+  button_read();
   
   if(hue > HUE_MAX){
     isHueIncreasing = false;
@@ -203,6 +232,7 @@ void preset2(){
   for(int i = 0; i < NUM_STRIP; i++){
     for(int j = 0; j < NUM_LEDS; j++){
       leds[i][j].setHue(hue);
+      delay(rate);
     }
   }
   FastLED.show();
@@ -210,6 +240,6 @@ void preset2(){
 
 //Something crazy
 void preset3(){
-  buttonRead();
+  button_read();
   
 }
