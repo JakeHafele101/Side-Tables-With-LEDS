@@ -1,0 +1,17 @@
+Added Component: Designator=5V(EPAD)
+Added Component: Designator=GND(EPAD)
+Added Component: Designator=SW1(EPAD)
+Added Component: Designator=SW2(EPAD)
+Added Component: Designator=SW3(EPAD)
+Added Pin To Net: NetName=+5 Pin=5V-1
+Added Pin To Net: NetName=GND Pin=GND-1
+Added Pin To Net: NetName=NetP1_9 Pin=SW1-1
+Added Pin To Net: NetName=NetP1_6 Pin=SW2-1
+Added Pin To Net: NetName=NetP1_3 Pin=SW3-1
+Added Member To Class: ClassName=LED Strip Board Schematic Member=Component 5V EPAD
+Added Member To Class: ClassName=LED Strip Board Schematic Member=Component GND EPAD
+Added Member To Class: ClassName=LED Strip Board Schematic Member=Component P1 LED Strip Connectors
+Added Member To Class: ClassName=LED Strip Board Schematic Member=Component SW1 EPAD
+Added Member To Class: ClassName=LED Strip Board Schematic Member=Component SW2 EPAD
+Added Member To Class: ClassName=LED Strip Board Schematic Member=Component SW3 EPAD
+Added Room: Name=LED Strip Board Schematic

@@ -90,91 +90,180 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GRPIIKJV
 
+[Document4]
+DocumentPath=..\..\..\..\..\..\..\Downloads\GF-123-0054.IntLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document5]
+DocumentPath=CAMtastic3.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document6]
+DocumentPath=CAMtastic4.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document7]
+DocumentPath=..\..\..\Solar Car\Altium-Libraries\PrISUm-Discrete.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document8]
+DocumentPath=..\..\..\Solar Car\Altium-Libraries\PrISUm-Discrete.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
-DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2-RoundHoles.TXT
+DocumentPath=Project Outputs for LED Strip Board\Design Rule Check - LED Strip Board 2.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2-SlotHoles.TXT
+DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2.DRR
+DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2.EXTREP
+DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2.GBL
+DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2.GBS
+DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2.GM1
+DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2.GM2
+DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2.GM3
+DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2.GM2
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2.GM5
+DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2.GM3
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2.GM13
+DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2.GM5
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2.GM15
+DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2.GM13
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2.GM16
+DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2.GM15
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2.GPB
+DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2.GM16
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2.GPT
+DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2.GPB
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2.GTL
+DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2.GPT
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2.GTO
+DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2.GTP
+DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2.GTS
+DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2.LDP
+DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2.REP
+DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument22]
+DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2.REP
+DItemRevisionGUID=
+
+[GeneratedDocument23]
 DocumentPath=Project Outputs for LED Strip Board\LED Strip Board 2.RUL
 DItemRevisionGUID=
 
@@ -297,7 +386,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=HP ENVY Pro 6400 series [BA372C]
+TargetPrinter=Webex Document Loader
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -397,7 +486,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=HP ENVY Pro 6400 series [BA372C]
+TargetPrinter=Webex Document Loader
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
